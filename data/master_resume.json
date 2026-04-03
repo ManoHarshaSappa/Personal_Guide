@@ -1,0 +1,164 @@
+{
+  "profile": {
+    "name": "Mano Harsha Sappa",
+    "title": "Analytics Engineer | Data Engineer | BI Engineer",
+    "summary": "Analytics Engineer with 5+ years of experience building scalable data pipelines, analytics models, and reporting systems across healthcare and financial domains. Skilled in Snowflake, dbt, SQL, Python, Power BI, Tableau, and DataOps practices, with a strong focus on data quality, automation, and business-facing analytics. Currently pursuing a Master of Science in Data Analytics Engineering at George Mason University."
+  },
+  "skills": [
+    {
+      "category": "Programming & Query Languages",
+      "items": [
+        "SQL",
+        "Python",
+        "PySpark",
+        "R"
+      ]
+    },
+    {
+      "category": "Data Platforms & Transformation",
+      "items": [
+        "Snowflake",
+        "dbt",
+        "AWS S3",
+        "ETL",
+        "ELT",
+        "Data Modeling"
+      ]
+    },
+    {
+      "category": "Visualization & Analytics",
+      "items": [
+        "Power BI",
+        "Tableau",
+        "Dashboarding",
+        "KPI Standardization"
+      ]
+    },
+    {
+      "category": "DataOps & Quality",
+      "items": [
+        "Git",
+        "CI/CD",
+        "dbt Tests",
+        "Data Quality Monitoring",
+        "Anomaly Detection"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Cigna",
+      "role": "Analytics Engineer",
+      "description": "Builds scalable healthcare data pipelines and analytics models that improve data availability, reporting reliability, and downstream business insights for operational and analytics teams.",
+      "tools": [
+        "Snowflake",
+        "dbt",
+        "SQL",
+        "Python",
+        "AWS S3",
+        "Power BI"
+      ],
+      "achievements": [
+        "Improved data availability by 35% by strengthening ELT workflows, transformation layers, and pipeline reliability.",
+        "Designed scalable Snowflake and dbt data models for healthcare reporting and operational analytics.",
+        "Implemented Python-based anomaly detection and validation workflows to reduce reporting errors in production."
+      ]
+    },
+    {
+      "company": "Accenture",
+      "role": "Data Analyst / Analytics Consultant",
+      "description": "Delivered business intelligence solutions, curated analytics layers, and dashboard reporting workflows for enterprise stakeholders using standardized metrics and self-service reporting patterns.",
+      "tools": [
+        "SQL",
+        "Power BI",
+        "Tableau",
+        "Python",
+        "Excel"
+      ],
+      "achievements": [
+        "Reduced manual reporting effort by 50% through standardized KPI definitions and curated reporting layers.",
+        "Improved reporting turnaround time by 60% by enabling self-service dashboard workflows for non-technical users.",
+        "Partnered with business teams to translate reporting needs into scalable analytics assets and dashboard solutions."
+      ]
+    },
+    {
+      "company": "Wipro",
+      "role": "Data Analyst",
+      "description": "Supported data reporting, analytics automation, and performance monitoring initiatives by working with structured datasets, reporting workflows, and stakeholder-facing metrics.",
+      "tools": [
+        "SQL",
+        "Python",
+        "Tableau",
+        "Excel"
+      ],
+      "achievements": [
+        "Automated recurring reporting tasks and improved consistency of business-facing metrics.",
+        "Built reusable analysis workflows that supported operational reporting and business decision-making.",
+        "Strengthened data preparation and reporting processes across cross-functional project work."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Healthcare ELT Pipeline Modernization",
+      "description": "Designed an end-to-end ELT workflow using Snowflake, dbt, SQL, and AWS S3 to move raw healthcare data into curated analytical models for reporting and business decision-making.",
+      "tools": [
+        "Snowflake",
+        "dbt",
+        "SQL",
+        "Python",
+        "AWS S3"
+      ],
+      "impact": "Improved data availability by 35%, strengthened reliability, and created scalable curated marts for operational and analytics teams."
+    },
+    {
+      "title": "Python-Based Data Quality and Anomaly Detection Framework",
+      "description": "Built Python validation and anomaly detection workflows that compare current pipeline outputs against historical patterns to identify missing values, outliers, and quality issues after each ELT cycle.",
+      "tools": [
+        "Python",
+        "SQL",
+        "Snowflake",
+        "Data Quality Monitoring"
+      ],
+      "impact": "Reduced reporting errors by 20% and improved trust in production reporting workflows."
+    },
+    {
+      "title": "Self-Service Analytics Dashboard Program",
+      "description": "Created curated reporting layers and executive-friendly dashboards with drill-down features so business users could analyze performance without depending on ad hoc SQL support.",
+      "tools": [
+        "Power BI",
+        "Tableau",
+        "SQL",
+        "KPI Standardization"
+      ],
+      "impact": "Reduced manual reporting work by 50% and improved turnaround time by 60% for business reporting requests."
+    },
+    {
+      "title": "Interview Practice Chatbot",
+      "description": "Built an AI-assisted interview trainer that generates one interview question at a time, provides sample answers, and explains how strong responses should be structured.",
+      "tools": [
+        "Next.js",
+        "TypeScript",
+        "OpenAI API",
+        "React",
+        "Tailwind CSS"
+      ],
+      "impact": "Created a focused practice experience for interview preparation with realistic interviewer-style prompts and structured coaching guidance."
+    }
+  ],
+  "education": [
+    {
+      "institution": "George Mason University",
+      "degree": "Master of Science",
+      "fieldOfStudy": "Data Analytics Engineering",
+      "graduationYear": "2025"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Data Engineer",
+      "issuer": "Amazon Web Services",
+      "year": "2025"
+    }
+  ]
+}

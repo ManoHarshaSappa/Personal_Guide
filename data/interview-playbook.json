@@ -1,0 +1,280 @@
+{
+  "candidateContext": {
+    "targetBackground": [
+      "Cigna",
+      "Accenture",
+      "Wipro"
+    ],
+    "education": "Master of Science in Data Analytics Engineering at George Mason University",
+    "positioning": "Analytics Engineer with 5+ years of experience building scalable data pipelines and models across healthcare and financial domains."
+  },
+  "answerStyle": {
+    "tone": [
+      "clear",
+      "confident",
+      "natural",
+      "professional"
+    ],
+    "guidance": [
+      "Lead with a direct answer.",
+      "Connect experience to measurable business impact.",
+      "Use tools and architecture details when answering technical questions.",
+      "Keep answers believable and grounded in real project ownership."
+    ]
+  },
+  "coreStories": [
+    {
+      "topic": "Tell me about yourself",
+      "strategy": "Connect prior experience, current academic growth, and recent technical impact.",
+      "script": "I am an Analytics Engineer with over 5 years of experience building scalable data pipelines and models across healthcare and financial sectors. Currently, I am finishing my Master of Science in Data Analytics Engineering at George Mason University while working on high-impact projects at Cigna. I specialize in using Snowflake, dbt, and Python to turn raw data into reliable business insights. For instance, my recent work at Cigna improved data availability by 35%. I am passionate about DataOps and building automated frameworks that ensure data quality at scale."
+    },
+    {
+      "topic": "Pipeline experience and large datasets",
+      "strategy": "Emphasize incremental processing, SQL optimization, and scalable warehouse design.",
+      "script": "I have built end-to-end ELT pipelines using Snowflake, dbt, and AWS S3. When working with large healthcare datasets, I focus on incremental processing rather than full refreshes to handle data efficiently. I also use partitioning and clustering in Snowflake to manage load. By optimizing SQL using CTEs and window functions, I have improved query efficiency by 30% and reduced dashboard latency by 40%."
+    },
+    {
+      "topic": "Analytics for non-technical teams",
+      "strategy": "Highlight self-service analytics, KPI standardization, and reporting efficiency.",
+      "script": "I support business teams by creating curated data layers and standardized KPI definitions, which reduces reporting discrepancies. I use Power BI and Tableau to build dashboards with drill-down features so non-technical users can perform their own analysis without needing SQL. At Accenture, this approach reduced manual reporting effort by 50% and improved turnaround time by 60%."
+    },
+    {
+      "topic": "Python automation and AI monitoring",
+      "strategy": "Show Python-based validation, anomaly detection, and reliability gains.",
+      "script": "I use Python for validation and workflow automation. For example, I implemented Python-based anomaly detection to monitor healthcare claims data for outliers or missing values. By comparing current data against historical trends, these automated checks run after every ELT cycle to ensure reliability. This helped reduce reporting errors by 20% in production workflows."
+    },
+    {
+      "topic": "Ensuring data quality",
+      "strategy": "Describe a layered approach with dbt tests, Python validation, and DataOps discipline.",
+      "script": "I ensure high data quality through a multi-layered approach. First, I use dbt tests for uniqueness and referential integrity, which reduced pipeline failures by 30%. Second, I implement business-rule validations using Python. Finally, I follow strict DataOps practices, including Git-based version control and clear data lineage, so issues are caught before they reach stakeholders."
+    },
+    {
+      "topic": "Salary expectations",
+      "strategy": "Anchor on market value, total package, and fit rather than sounding rigid.",
+      "script": "Based on my 5 plus years of experience building pipelines for major firms like Cigna and Accenture, combined with my Master's degree and certifications such as AWS Certified Data Engineer, I am looking for a competitive salary range for an Analytics Engineer in this region. I am open to discussing the full compensation package, including benefits and growth opportunities, because the right fit matters most."
+    }
+  ],
+  "questionsForInterviewer": [
+    "What are the biggest challenges you are currently facing with data pipeline scalability?",
+    "How does the team currently handle CI/CD and automated testing for dbt models?",
+    "What would success look like in this role in the first few months, such as reducing dashboard latency or improving metric standardization?"
+  ],
+  "referenceQuestions": [
+    "Can you briefly walk me through your background and how you moved into analytics engineering?",
+    "What kind of problems are you currently solving in your role?",
+    "Can you explain one end-to-end data pipeline you built and how the data flows?",
+    "How do you decide when to use incremental models in dbt?",
+    "Can you describe a SQL performance issue you faced and how you optimized it?",
+    "How do you ensure downstream tasks do not run when upstream data is incomplete in Airflow?",
+    "What approach do you follow to maintain data quality and validation in pipelines?",
+    "How do you choose between tools like Snowflake, Redshift, or Databricks for large datasets?",
+    "Can you share a situation where you handled conflicting requirements between teams?",
+    "What are your compensation expectations and what are you looking for in your next role?",
+    "How do you handle tight deadlines when multiple priorities come at the same time?",
+    "Can you describe a long-term project you managed and how you kept it on track?",
+    "What do you do when your workload becomes overwhelming?",
+    "Tell me about a time you had too much work and limited time. How did you handle it?",
+    "How do you handle disagreements with teammates?",
+    "Tell me about a time you had to explain a technical concept to a non-technical person.",
+    "How do you handle feedback or criticism from your manager?",
+    "Have you ever misunderstood a requirement? What did you do?",
+    "Describe a time you helped a teammate succeed.",
+    "Tell me about a time you worked with someone very different from you.",
+    "Have you faced any conflict at work? How did you resolve it?",
+    "What would you do if a team member is not completing their work?",
+    "Describe a situation where you dealt with a difficult stakeholder or client.",
+    "Tell me about a time you had to correct a client or push back on them.",
+    "Tell me about a time you had to adapt quickly to a major change.",
+    "Describe a situation where you worked under high pressure.",
+    "How do you handle stress in challenging situations?",
+    "Have you ever led a project or taken ownership of something important?",
+    "Tell me about a time you had to work on something you had no prior experience with.",
+    "Describe a problem you solved that was outside your responsibilities.",
+    "Tell me about a time you didn’t know how to solve a problem. What did you do?",
+    "Tell me about a time you went above and beyond at work.",
+    "Describe a failure or goal you didn’t achieve. What did you learn?",
+    "Tell me about a time you realized you were wrong."
+  ],
+  "focusTopics": [
+    "Snowflake",
+    "dbt",
+    "Python",
+    "DataOps",
+    "Healthcare analytics",
+    "Power BI",
+    "Tableau",
+    "ETL and ELT",
+    "SQL optimization",
+    "Data quality",
+    "Data warehousing concepts",
+    "Dimensional modeling",
+    "Airflow DAGs",
+    "Data lineage",
+    "KPI standardization",
+    "Query performance tuning",
+    "Cloud data architecture"
+  ],
+  "technicalTopicGroups": [
+    {
+      "name": "Core Data Engineering and Analytics",
+      "topics": [
+        "Data warehousing concepts",
+        "Dimensional modeling including star schema and snowflake schema",
+        "Fact vs dimension tables",
+        "Slowly changing dimensions including Type 1, 2, and 3",
+        "Data mart vs data warehouse",
+        "OLTP vs OLAP"
+      ]
+    },
+    {
+      "name": "SQL",
+      "topics": [
+        "Window functions including ROW_NUMBER, RANK, and DENSE_RANK",
+        "CTEs vs subqueries",
+        "Query optimization techniques",
+        "Indexing including clustered vs non-clustered",
+        "Joins including inner, left, right, full, and self joins",
+        "Aggregations and grouping",
+        "Execution plans",
+        "Partitioning and bucketing",
+        "Data skew handling"
+      ]
+    },
+    {
+      "name": "dbt",
+      "topics": [
+        "dbt models across staging, intermediate, and mart layers",
+        "dbt materializations including view, table, and incremental",
+        "dbt testing including generic and custom tests",
+        "dbt snapshots",
+        "dbt macros and Jinja",
+        "dbt seeds",
+        "dbt documentation and lineage",
+        "Incremental load strategies"
+      ]
+    },
+    {
+      "name": "Data Pipelines and ELT",
+      "topics": [
+        "ETL vs ELT",
+        "Batch vs streaming pipelines",
+        "Incremental vs full load",
+        "Idempotent pipelines",
+        "Data orchestration with Airflow DAGs",
+        "Dependency management",
+        "Retry and failure handling",
+        "Pipeline scheduling"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "topics": [
+        "AWS S3 storage concepts",
+        "Data lake vs data warehouse",
+        "Azure Data Factory pipelines",
+        "IAM roles and permissions",
+        "Data partitioning in cloud systems",
+        "Cost optimization strategies",
+        "Serverless vs cluster-based processing"
+      ]
+    },
+    {
+      "name": "Data Modeling and Design",
+      "topics": [
+        "Normalization vs denormalization",
+        "Surrogate keys vs natural keys",
+        "Grain definition",
+        "Fact table types including transactional, snapshot, and accumulating",
+        "Schema evolution",
+        "Data contracts"
+      ]
+    },
+    {
+      "name": "Analytics and Business Layer",
+      "topics": [
+        "KPI definition and standardization",
+        "Metric layer design",
+        "Data aggregation logic",
+        "Dashboard performance optimization",
+        "Semantic layer concepts"
+      ]
+    },
+    {
+      "name": "Data Quality and Governance",
+      "topics": [
+        "Data validation techniques",
+        "Data lineage",
+        "Data observability",
+        "Anomaly detection",
+        "Data integrity constraints",
+        "Schema validation",
+        "Data auditing"
+      ]
+    },
+    {
+      "name": "Python for Data Engineering",
+      "topics": [
+        "Pandas transformations",
+        "Data cleaning techniques",
+        "Automation scripts",
+        "Validation frameworks",
+        "Logging and error handling"
+      ]
+    },
+    {
+      "name": "DataOps and CI-CD",
+      "topics": [
+        "Version control and Git workflows",
+        "CI/CD for data pipelines",
+        "Deployment strategies",
+        "Environment management across dev, QA, and prod",
+        "Testing pipelines"
+      ]
+    },
+    {
+      "name": "Performance and Scaling",
+      "topics": [
+        "Query performance tuning",
+        "Parallel processing",
+        "Caching strategies",
+        "Data partitioning strategies",
+        "Resource optimization"
+      ]
+    },
+    {
+      "name": "Domain Specific",
+      "topics": [
+        "Claims data processing",
+        "Financial reporting metrics",
+        "Regulatory data handling",
+        "HIPAA basics and data privacy",
+        "Data reconciliation"
+      ]
+    },
+    {
+      "name": "Advanced and Senior-Level Topics",
+      "topics": [
+        "End-to-end data lineage design",
+        "Schema design trade-offs",
+        "Real-time vs batch architecture decisions",
+        "Handling large-scale data at TB level",
+        "Fault-tolerant pipeline design",
+        "Data platform architecture",
+        "Multi-source data integration",
+        "Metadata management"
+      ]
+    }
+  ],
+  "mustRememberKeywords": [
+    "ELT pipelines",
+    "Snowflake optimization",
+    "dbt incremental models",
+    "Star schema",
+    "Window functions",
+    "Data lineage",
+    "Airflow DAGs",
+    "KPI standardization",
+    "Query optimization",
+    "Data quality checks"
+  ]
+}

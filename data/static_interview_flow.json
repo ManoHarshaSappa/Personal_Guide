@@ -1,0 +1,106 @@
+[
+  {
+    "question": "Tell me about yourself",
+    "question_variations": [
+      "Could you walk me through your background and how your experience has led you to where you are today?",
+      "I’d love to start with a quick overview of your experience—can you tell me about your journey so far?",
+      "Can you give me a brief introduction to your background, focusing on your recent work and key strengths?"
+    ],
+    "type": "intro",
+    "interviewer_intent": "Open the conversation and understand your background, progression, and fit for a data-focused role.",
+    "expected_points": [
+      "Summarize your experience across Wipro, Accenture, and Cigna.",
+      "Show growth from reporting and dashboarding into analytics engineering.",
+      "Mention the tools, business impact, and data-quality ownership that define your work."
+    ],
+    "sample_answer": "Thank you for the opportunity. My name is Mano Harsha Sappa, and I have over five years of experience working with healthcare and financial data, with a strong focus on building scalable analytics pipelines, data models, and reporting systems.\nI began my career at Wipro, where I built a solid foundation in SQL, data validation, and dashboard development. That experience really shaped how I think about translating raw data into meaningful business insights.\nFrom there, I moved to Accenture, where I took on more advanced analytics engineering responsibilities. I designed scalable SQL pipelines, developed dimensional models using star schema principles, and automated reporting workflows, which reduced turnaround time by approximately 60%. I also gained hands-on experience with Azure Data Factory for pipeline orchestration and multi-source data integration.\nCurrently, I'm working at Cigna as an Analytics Engineer, where I'm part of a team building a healthcare analytics platform. My work involves designing and managing ELT pipelines using Snowflake, dbt, and AWS S3. I've led efforts to redesign data models for claims and financial reporting, which improved dashboard performance by around 40%. I've also optimized SQL transformations using CTEs and window functions to drive efficiency at scale.\nIn addition, data quality has been a key priority for me, I've implemented dbt testing frameworks and Python-based validation checks that have significantly reduced pipeline failures and improved overall confidence in the data.\nTo summarize, my career has progressed from foundational reporting and dashboard work to designing production-grade data models and end-to-end analytics pipelines that directly support critical business decisions.",
+    "explanation": ""
+  },
+  {
+    "question": "Are you authorized to work in the US?",
+    "question_variations": [
+      "Before we go further, could you confirm your current work authorization status in the United States?",
+      "Are you currently authorized to work in the U.S. without any restrictions?",
+      "Can you clarify your work eligibility in the United States at this time?"
+    ],
+    "type": "hr",
+    "interviewer_intent": "Confirm your current work authorization before moving further in the interview process.",
+    "expected_points": [
+      "Answer directly and clearly.",
+      "State your current authorization status.",
+      "Keep the response short and factual."
+    ],
+    "answerOptions": [
+      "Yes, I am currently authorized to work in the United States.",
+      "Yes, I’m authorized to work in the U.S. under OPT.",
+      "Yes, I have valid work authorization in the U.S. at this time.",
+      "Yes, I’m legally authorized to work in the United States."
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Do you require sponsorship?",
+    "question_variations": [
+      "Do you anticipate requiring visa sponsorship at any point, either now or in the future?",
+      "Will you need employer sponsorship now or later to continue working in the U.S.?",
+      "Can you share whether you foresee any sponsorship needs going forward?"
+    ],
+    "type": "hr",
+    "interviewer_intent": "Understand your near-term sponsorship needs and whether anything affects hiring timing.",
+    "expected_points": [
+      "Answer directly.",
+      "Clarify whether sponsorship is needed now or only in the future.",
+      "Keep the tone confident and straightforward."
+    ],
+    "answerOptions": [
+      "No, I do not require sponsorship at this time. I may need it in the future.",
+      "No, I’m currently working on OPT and don’t require sponsorship right now, but I may need it later.",
+      "No, I do not require immediate sponsorship.",
+      "Not at the moment. I’m authorized to work now, though I may require sponsorship in the future."
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "What are your salary expectations?",
+    "question_variations": [
+      "Could you share your expectations around compensation for this role?",
+      "What salary range are you targeting, considering your experience and the market?",
+      "How are you thinking about compensation for your next opportunity?"
+    ],
+    "type": "hr",
+    "interviewer_intent": "Gauge whether compensation expectations are in a workable range for the role.",
+    "expected_points": [
+      "Stay market-aware but flexible.",
+      "Avoid sounding rigid too early.",
+      "Show openness to discussing the full package."
+    ],
+    "answerOptions": [
+      "I’m looking for a competitive salary based on market standards, but I’m flexible.",
+      "I’m targeting a market-aligned salary but open to discussion.",
+      "I’m looking for a strong compensation package but flexible depending on the role."
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "When would you be available to start?",
+    "question_variations": [
+      "If everything moves forward, what would your expected timeline be for joining?",
+      "How soon would you be available to start after receiving an offer?",
+      "What does your current availability look like in terms of starting a new role?"
+    ],
+    "type": "hr",
+    "interviewer_intent": "Check your likely start timeline and whether it aligns with the team's hiring plan.",
+    "expected_points": [
+      "Give a clear timeframe.",
+      "Sound ready and practical.",
+      "Mention flexibility if appropriate."
+    ],
+    "answerOptions": [
+      "I can start within 2 weeks of receiving the offer.",
+      "I would be available to start in about 2 weeks after accepting the offer.",
+      "I can join within 2 weeks, but I’m flexible if needed.",
+      "I’m available to start within 2 weeks and can adjust."
+    ],
+    "explanation": ""
+  }
+]
